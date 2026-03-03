@@ -32,6 +32,24 @@ export default function MainLayout({ children }: MainLayoutProps) {
             >
               ListView
             </Link>
+            <Link
+              className="hover:text-zinc-900 dark:hover:text-white"
+              href="/tdd"
+            >
+              TDD
+            </Link>
+            <Link
+              className="hover:text-zinc-900 dark:hover:text-white"
+              href="/error-example"
+            >
+              Error Example
+            </Link>
+            <Link
+              className="hover:text-zinc-900 dark:hover:text-white"
+              href="/i18n"
+            >
+              I18n
+            </Link>
           </nav>
         </header>
         <div className="w-full">{children}</div>
